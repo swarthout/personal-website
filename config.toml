@@ -1,0 +1,67 @@
+languageCode = "en-us"
+baseurl = "https://swarthout.github.io"
+theme = "portfolio"
+
+[params]
+    author = "Scott Swarthout"
+    title = "Scott Swarthout"
+    location = "Farmington Hills, MI"
+    email = "scott.swarthout724@gmail.com"
+    website = "http://swarthout.github.io"
+    [params.social]
+        twitter = "https://twitter.com/scott_swarthout"
+        google = "https://plus.google.com/+ScottSwarthout/"
+        linkedin = "https://www.linkedin.com/in/scottswarthout"
+        github = "https://github.com/swarthout"
+
+    [params.about]
+        title = "About"
+        content = "I am a junior at Michigan State University pursuing a bachelors degree in Computer Science with a minor in Mathematics. I am passionate about technology and entrepreneurship. I also enjoy fencing on the Michigan State club fencing team and fencing in collegiate events."
+
+    [params.projects]
+        title = "Latest Projects"
+
+    [params.activities]
+        title = "Extracurricular Activities"
+
+   [params.education]
+        title = "Education"
+        program = "BS Computer Science &amp; Mathematics Minor"
+        university = "Michigan State University"
+        start = "2014"
+        finish = "2018"
+
+   [params.experience]
+        title = "Work Experience"
+
+   [params.skills]
+        title = "Skills"
+
+        [[params.skills.skill]]
+            name = "Javascript &amp; Node.js"
+            rating = "Skilled"
+            percentage = 90
+
+        [[params.skills.skill]]
+            name = "C++"
+            rating = "Proficient"
+            percentage = 80
+        [[params.skills.skill]]
+            name = "Python"
+            rating = "Working Knowledge"
+            percentage = 70
+
+    [params.honors]
+        title = "Honors / Awards"
+
+        [[params.honors.honor]]
+            name = "Harold and Helen Tolles Scholarship: MSU Math Departent"
+        [[params.honors.honor]]
+            name = "Dean’s List Honoree 2014, 2015, 2016"
+        [[params.honors.honor]]
+            name = "AP Scholar with Distinction"
+        [[params.honors.honor]]
+            name = "National Merit Scholar Honorable Mention"
+
+   [params.footer]
+        text = "Built with Bootstrap and Hugo"

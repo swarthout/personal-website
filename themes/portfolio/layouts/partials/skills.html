@@ -1,0 +1,29 @@
+<aside class="skills aside section">
+    <div class="section-inner">
+        <h2 class="heading">Skills</h2>
+        <div class="content">
+            <p class="intro"></p>
+
+            <div class="skillset">
+
+                {{ range .Site.Params.skills.skill }}
+                <div class="item">
+                    <h3 class="level-title"> {{ .name | safeHTML }} <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true"
+                            title="">{{ .rating }}</span>
+                    </h3>
+                    <div class="level-bar">
+                        <div class="level-bar-inner" data-level="{{ .percentage }}%">
+                        </div>
+                    </div>
+                    <!--//level-bar-->
+                </div>
+                {{ end }}
+                <!--//item-->
+
+            </div>
+        </div>
+        <!--//content-->
+    </div>
+    <!--//section-inner-->
+</aside>
+<!--//section-->

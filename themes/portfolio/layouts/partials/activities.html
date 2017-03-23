@@ -1,0 +1,17 @@
+<section class="projects section">
+    <div class="section-inner">
+        <h2 class="heading">{{ with .Site.Params.activities.title }}{{.}}{{ end }}</h2>
+        <div class="content">
+            {{ range sort .Site.Data.activities "weight" }}
+            <div class="item">
+                <h3 class="title"><a href="#">{{ .name }}</a></h3>
+                <p class="summary">{{ .start}}- {{ .finish | default "Present" }}</p>
+                <p class="summary description"> {{ .summary }}</p>
+            </div>
+            {{ end }}
+        </div>
+        <!--//content-->
+    </div>
+    <!--//section-inner-->
+</section>
+<!--//section-->

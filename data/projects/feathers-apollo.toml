@@ -1,0 +1,7 @@
+title = "Feathers Apollo"
+date = "2016-08-01"
+weight = 1
+summary = "Node.js GraphQL Starter Kit"
+image = "/images/projects/graphql.png"
+content = "Feathers Apollo is a starter kit and opnionated framework for building GraphQL servers with Apollo and Feathers."
+link = "https://github.com/swarthout/feathers-apollo"

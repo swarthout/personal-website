@@ -1,0 +1,20 @@
+<section class="experience section">
+    <div class="section-inner">
+        <h2 class="heading">{{ with .Site.Params.experience.title }}{{.}}{{ end }}</h2>
+        <div class="content">
+
+            {{ range sort .Site.Data.experiences "date" "desc"}}
+            <div class="item">
+                <h3 class="title"> {{ .title }} - <span class="place"><a href="#"> {{ .company }} -</a></span> <span
+                        class="year"> {{ .start }} - {{ .finish | default "Present"}}</span>
+                </h3>
+                <p> {{ .summary }}</p>
+            </div>
+            <!--//item-->
+            {{ end }}
+        </div>
+        <!--//content-->
+    </div>
+    <!--//section-inner-->
+</section>
+<!--//section-->

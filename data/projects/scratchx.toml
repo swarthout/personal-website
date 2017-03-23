@@ -1,0 +1,7 @@
+title = "ScratchX"
+date = "2015-11-01"
+weight = 2
+summary = "A smart wearable designed to treat sufferers of OCD"
+image = "/images/projects/aprilhatching.jpg"
+content = "ScratchX is a wearable device that uses a multitude of sensors to detect when users are performing destructive actions, like skin picking or hair pulling. The device communicates with the user's smartphone and notifies them of this behavior. ScratchX has received funding from the LEAP foundation and is currently in development"
+link = "http://startuplansing.org/startup-spotlight-scratchx/"

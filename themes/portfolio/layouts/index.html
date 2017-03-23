@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "head.html" . }}
+<body>
+{{ partial "header.html" . }}
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-8 col-sm-12 col-xs-12">
+
+            {{ partial "about.html" . }}
+
+            {{ partial "projects.html" . }}
+
+            {{ partial "experience.html" . }}
+
+            {{ partial "activities.html" . }}
+
+            {{ partial "github.html" . }}
+
+        </div>
+        <!--//primary-->
+        <div class="secondary col-md-4 col-sm-12 col-xs-12">
+
+            {{ partial "info.html" . }}
+
+            {{partial "skills.html" . }}
+
+            <!--{{partial "testimonials.html" . }}-->
+
+            {{partial "education.html" . }}
+
+            {{partial "honors.html" . }}
+
+        </div>
+        <!--//row-->
+    </div>
+    <!--//masonry-->
+</div>
+
+{{ partial "footer.html" . }}
+
+{{ partial "js.html" . }}
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<aside class="education aside section">
+    <div class="section-inner">
+        {{ with .Site.Params.education }}
+        <h2 class="heading"> {{ .title }} </h2>
+        <div class="content">
+            <div class="item">
+                <h3 class="title"><i class="fa fa-graduation-cap"></i> {{ .program | safeHTML}}
+                </h3>
+                <h4 class="university">{{ .university }} <span class="year">({{ .start }}-{{ .finish }})</span>
+                </h4>
+            </div>
+            <!--//item-->
+        </div>
+        {{ end }}
+        <!--//content-->
+    </div>
+    <!--//section-inner-->
+</aside>
+<!--//section-->

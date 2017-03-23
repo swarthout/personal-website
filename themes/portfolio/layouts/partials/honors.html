@@ -1,0 +1,16 @@
+<aside class="list music aside section">
+    <div class="section-inner">
+        <h2 class="heading">{{ with .Site.Params.honors.title }}{{.}}{{ end }}</h2>
+        <div class="content">
+            <ul class="list-unstyled">
+                {{ range .Site.Params.honors.honor}}
+                <li><i class="fa fa-star"></i> <a href="#"> {{.name}}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <!--//content-->
+    </div>
+    <!--//section-inner-->
+</aside>
+<!--//section-->
