@@ -1,0 +1,7 @@
+title = "Cloudmol"
+date = "2017-09-22"
+weight = 2
+summary = "Computational Chemistry with Tensorflow"
+image = "/images/projects/tensorflow.jpg"
+content = "Cloudmol is a scientific computing project that hopes to bring modern machine learning tools and infrastructure to the industry of computational chemistry"
+link = "https://github.com/derekmetcalf/cloudmol"
