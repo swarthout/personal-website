@@ -1,0 +1,7 @@
+title = "Spartan Experience Mobile Application"
+date = "2017-08-24"
+weight = 1
+summary = "Senior Design Project"
+image = "/images/projects/team-photo.jpg"
+content = "The Spartan Experience Mobile App is the offical campus mobile app of Michigan State University. The goal is to provide students and campus visitors with relevant information such as building locations, dining hall menus, and upcoming campus events. For this project I developed the API and database layers as well as  third party data integrations, like twitter and dining hall menus."
+link = "http://www.cse.msu.edu/~cse498/2017-08/projects/michigan-state-university/"
